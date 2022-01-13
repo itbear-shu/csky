@@ -1,4 +1,4 @@
-package com.csky.web;
+package com.csky.web.servlet;
 
 
 import com.csky.domain.Category;
