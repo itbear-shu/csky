@@ -1,9 +1,9 @@
-package com.csky.web;
+package com.csky.web.servlet;
 
 
-import com.csky.domain.Category;
-import com.csky.service.CategoryService;
-import com.csky.service.impl.CategoryServiceImpl;
+import com.csky.domain.School;
+import com.csky.service.SchoolService;
+import com.csky.service.impl.SchoolServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,9 +15,9 @@ import java.util.List;
 /**
  * @author 16105
  */
-@WebServlet("/category/*")
-public class CategoryServlet extends BaseServlet {
-    private CategoryService service = new CategoryServiceImpl();
+@WebServlet("/school/*")
+public class SchoolServlet extends BaseServlet {
+    private SchoolService service = new SchoolServiceImpl();
 
     /**
      * 查询所有分类
@@ -26,8 +26,8 @@ public class CategoryServlet extends BaseServlet {
      * @throws ServletException
      * @throws IOException
      */
-    public void findAll(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<Category> list = service.findAll();
+    public void getAllSname(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        List<School> list = service.getAllSname();
         System.out.println(list);
         writeValue(list, response);
     }
