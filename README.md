@@ -6,7 +6,9 @@
 
 
 > 2021-2022 学年冬季学期《Java程序设计(实践)》大作业 --->>> **CSKY (CS考研，计算机考研网)**
-> 与 https://github.com/SHU-Silence/CSKY.git 同步.
+> 本仓库与 https://github.com/SHU-Silence/CSKY.git 同步.
+
+Vue代码仓库 https://github.com/itbear-shu/cskyVue2.git
 
 ### 🏠 [项目主页](https://github.com/SHU-Silence/CSKY)
 
